@@ -1,0 +1,307 @@
+body{
+    background:#fbfbfb;
+}
+#detail #detail-top{
+    width: 100%;
+    height: 530px;
+    margin-top: 15px;
+    padding: 20px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #eee;
+}
+#detail #detail-top #details-left{
+    width: 302px;
+    height: 422px;
+    float: left;
+    position: relative;
+}
+#detail #detail-top #details-left .l-top{
+    width: 100%;
+    height: 302px;
+    position: relative;
+}
+#detail #detail-top #details-left .l-top img{
+    width: 100%;
+    height: 302px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#detail #detail-top #details-left .l-top img:nth-child(1){
+    z-index: 10;
+}
+#detail #detail-top #details-left .l-center{
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+#detail #detail-top #details-left .l-center ul{
+    width: 180px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -90px;
+}
+#detail #detail-top #details-left .l-center ul li{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 15px 2px 0px 2px;
+    position: relative;
+    border: 1px solid #eee;
+    background: rgb(233, 7, 7);
+}
+#detail #detail-top #details-left .l-center ul li img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+}
+#detail #detail-top #details-left .l-center ul li:hover{
+    border: 1px solid #df3442;
+}
+#detail #detail-top #details-left .l-center ul li:hover div{
+    border: 1px solid #df3442;
+}
+#detail #detail-top #details-left .l-center ul li div{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    transform: rotateZ(45deg);
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    margin-left: -5px;
+    z-index: 1;
+}
+#detail #detail-top #details-left .l-bottom{
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+#detail #detail-top #details-left .l-bottom span{
+    margin-right: 50px;
+    color: #3d3d3d;
+    font-size: 12px;
+}
+#detail #detail-top #details-right{
+    width: 800px;
+    height: 518px;
+    float: right;
+    position: relative;
+}
+
+#detail #detail-top #details-left #fangdajing{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.3;
+    background: yellowgreen;
+    z-index: 10;
+    display: none;
+}
+#detail #detail-top #details-left #fangdajing2{
+    width: 302px;
+    height: 302px;
+    position: absolute;
+    right: -338px;
+    top: 0;
+    z-index: 100;
+    display: none;
+    overflow: hidden;
+}
+#detail #detail-top #details-left #fangdajing2 img{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#detail #detail-top #details-left #fangdajing2 img:nth-child(1){
+    z-index: 10;
+}
+#detail #detail-top #details-right .r-top{
+    width: 100%;
+    height: 68px;
+}
+#detail #detail-top #details-right .r-top div{
+    width: 100%;
+    height: 28px;
+    margin-bottom: 10px;
+}
+#detail #detail-top #details-right #prand-img{
+    width: 38px;
+    height: 28px;
+}
+#detail #detail-top #details-right #prand{
+    font-size: 14px;
+}
+#detail #detail-top #details-right #name{
+    font-size: 20px;
+    color: #525b64;
+    font-weight: 900;
+}
+#detail #detail-top #details-right #em{
+    font-size: 12px;
+    background: #6ba3f6;
+    color: #fff;
+    border-radius: 3px;
+}
+#detail #detail-top #details-right .r-center{
+    width: 100%;
+    height: 400px;
+    margin-top: 15px;
+}
+#detail #detail-top #details-right .r-center .center-1{
+    width: 630px;
+    height: 76px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    background: rgb(235, 235, 235);
+}
+#detail #detail-top #details-right .r-center .center-1 p{
+    color: #3d3d3d;
+    font-size: 12px;
+}
+#detail #detail-top #details-right .r-center .center-1 #price{
+    color: #568ae8;
+}
+#detail #detail-top #details-right .r-center .center-1 p:nth-child(2){
+    margin-top: 10px;
+}
+#detail #detail-top #details-right .r-center .center-1 p:nth-child(2) span{
+    margin-right: 50px;
+}
+#detail #detail-top #details-right .r-center .center-1 #hun{
+    color: #df3442;
+}
+#detail .r-center .center-2{
+    width: 100%;
+    height: 324px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+#detail .r-center .center-2 ul{
+    width: 100%;
+    height: 37px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+#detail .r-center .center-2 ul li{
+    width: 130px;
+    height: 36px;
+    margin-right: 2px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 14px;
+    color: rgb(133, 132, 132);
+    float: left;
+}
+#detail .r-center .center-2 .gaoliang{
+    color: #d41b1b;
+    border-bottom: 2px solid #d41b1b;
+}
+#detail .r-center .center-2 ul li:hover{
+    color: #d41b1b;
+    border-bottom: 2px solid #d41b1b;
+}
+#detail .r-center .center-2  .database{
+    display: block;
+    width: 758px;
+    height: 223px;
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+}
+#detail .r-center .center-2 .database>div{
+    width: 758px;
+    height: 67px;
+}
+#detail .r-center .center-2 .database>div:nth-child(1){
+    height: 23px;
+}
+#detail .r-center .center-2 .database>div:nth-child(3){
+    background: rgb(235, 235, 235);
+}
+#detail .r-center .center-2 .database>div:nth-child(1)>span{
+    font-size: 12px;
+    color: rgb(65, 65, 65);
+    margin-left: 130px;
+}
+#detail .r-center .center-2 .database>div div{
+    height: 100%;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+}
+#detail .r-center .center-2 .database>div div:nth-child(1){
+    width: 240px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+#detail .r-center .center-2 .database>div div:nth-child(2){
+    width: 276px;
+    line-height: 67px;
+}
+#detail .r-center .center-2 .database>div div:nth-child(3){
+    width: 40px;
+    line-height: 67px;
+}
+#detail .r-center .center-2 .database>div div:nth-child(4){
+    width: 202px;
+    line-height: 67px;
+}
+#detail #detail-top #details-right .r-bottom{
+    width: 160px;
+    height: 75px;
+    border: 1px solid #eee;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#detail #detail-top #details-right .r-bottom img{
+    width: 100%;
+    height: 100%;
+}
+#detail #detail-buttom{
+    width: 100%;
+    position: relative;
+}
+#detail #detail-buttom #jiesao{
+    width: 60%;
+    margin-left: 20%;
+}
+#detail .gouwuche2{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+#detail .gouwuche2 input{
+    position: absolute;
+    top: 15px;
+    height: 50px;
+    font-size: 16px;
+}
+#detail .gouwuche2 input:nth-child(1){
+    width: 1000px;
+    background: #d3d3d3;
+    right: 150px;
+    text-align: right;
+    color: #868686;
+    padding-right: 30px;
+
+}
+#detail .gouwuche2 input:nth-child(2){
+    width: 150px;
+    background: #d41b1b;
+    right: 0px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}

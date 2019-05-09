@@ -1,0 +1,222 @@
+#shopping .fenlei{
+    width: 100%;
+    height: 34px;
+    border-bottom: 2px solid #cccc;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+#shopping .fenlei ul{
+    width: 100%;
+    height: 34px;
+}
+#shopping .fenlei ul li{
+    height: 34px;
+    width: 132px;
+    box-sizing: border-box;
+    padding-bottom: 15px;
+    font-weight: 700px;
+    float: left;
+    text-align: center;
+}
+#shopping .fenlei ul li:hover{
+    border-bottom: 2px solid rgba(226, 7, 7, 0.8);
+}
+#shopping .fenlei ul li em{
+    color: rgb(245, 44, 9);
+}
+#shopping .xinxi{
+    width: 100%;
+    height: 50px;
+}
+#shopping .xinxi div{
+    text-align: center;
+    line-height: 50px;
+    height: 100%;
+    width: 120px;
+    float: left;
+    font-size: 14px;
+    color: #424242;
+}
+#shopping .xinxi div:nth-child(2){
+    width: 400px;
+}
+#shopping .shangpin{
+    width: 100%;
+}
+#shopping .shangpin ul{
+    padding-bottom: 30px;
+}
+#shopping .shangpin ul>div{
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+}
+#shopping .shangpin ul li{
+    width: 100%;
+    height: 130px;
+    background: rgba(236, 236, 236, 0.8);
+    border: 1px solid #ccc;
+}
+#shopping .shangpin ul li div{
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 15px;
+    float: left;
+    text-align: center;
+}
+#shopping .shangpin ul li div:nth-child(1){
+    width: 45px;
+}
+#shopping .shangpin ul li div:nth-child(2){
+    width: 300px;
+}
+#shopping .shangpin ul li div:nth-child(2) img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+#shopping .shangpin ul li div:nth-child(2) div{
+    width: 220px;
+    font-size: 14px;
+    float: left;
+    padding: 0;
+}
+#shopping .shangpin ul li div:nth-child(3){
+    width: 190px;
+}
+#shopping .shangpin ul li div:nth-child(3) p{
+    font-size: 12px;
+    color: rgb(90, 90, 90);
+}
+#shopping .shangpin ul li div:nth-child(4){
+    width: 120px;
+}
+#shopping .shangpin ul li div:nth-child(4) p:nth-child(1){
+    font-size: 14px;
+    color: rgb(90, 90, 90);
+    text-decoration: line-through;
+}
+#shopping .shangpin ul li div:nth-child(4) p:nth-child(2){
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(53, 53, 53);
+}
+#shopping .shangpin ul li div:nth-child(5){
+    width: 120px;
+}
+#shopping .shangpin ul li div:nth-child(5) input{
+    height: 25px;
+    width: 20px;
+    float: left;
+    text-align: center;
+}
+#shopping .shangpin ul li div:nth-child(5) input:nth-child(2){
+    width: 40px;
+}
+#shopping .shangpin ul li div:nth-child(6){
+    width: 100px;
+}
+#shopping .shangpin ul li div:nth-child(6) p{
+    font-size: 14px;
+    font-weight: 900;
+    color: rgb(243, 75, 9);
+}
+#shopping .shangpin ul li div:nth-child(7){
+    width: 100px;
+}
+#shopping .shangpin ul li div:nth-child(7) p{
+    font-size: 14px;
+}
+#shopping .shangpin ul li div:nth-child(7) p:hover{
+    color: rgb(243, 75, 9);
+    text-decoration: underline;
+}
+#shangpin-bottom{
+    width: 100%;
+    height: 50px;
+    background: rgba(236, 236, 236, 0.8);
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+}
+#shangpin-bottom #zongjia{
+    width: 250px;
+    height: 100%;
+    float: right;
+    background: wheat;
+    color: rgb(243, 75, 9);
+}
+#shangpin-bottom #jiesuan{
+    width: 150px;
+    height: 100%;
+    float: right;
+    background: #ccc;
+    color: rgb(243, 44, 9);
+}
+
+#tan{
+    width: 240px;
+    height: 123px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -120px;
+    margin-top: -61px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 3px #aaa;
+    background: #fff;
+    display: none;
+}
+#tan>div:nth-child(1){
+    width: 100%;
+    height: 76px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    position: relative;
+}
+#tan>div:nth-child(2){
+    width: 100%;
+    height: 46px;
+    background-color: #f8f8f8;
+    border-radius:0px 0px 5px 5px;
+    position: relative;
+}
+#tan>div:nth-child(1) span{
+    line-height: 76px;
+    font-size: 14px;
+    color: #3d3d3d;
+}
+#tan>div:nth-child(1) div{
+    width: 24px;
+    height: 24px;
+    background: #df3442;
+    border-radius: 50%;
+    font-weight: 900;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    margin: -12px 10px 0px 20px;
+}
+#tan>div:nth-child(2) div{
+    width: 64px;
+    height: 26px;
+    border-radius: 5px;
+    background: #66B3DA;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    margin-top: -13px;
+    margin-left: -32px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 26px;
+    text-align: center;
+    cursor: pointer;
+}
+#tan>div:nth-child(2) div:nth-child(2){
+    left: 70%;
+}
+#tan>div:nth-child(2) div:hover{
+    background: #38abe4;
+}

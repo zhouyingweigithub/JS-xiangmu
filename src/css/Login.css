@@ -1,0 +1,250 @@
+
+.contents{
+    width: 1180px;
+    height: 100%;
+    margin: auto;
+}
+#top{
+    width: 100%;
+    height: 30px;
+    background: #f0f0f0;
+    border-bottom:1px solid #cccccc;
+}
+#top .top-left{
+    height: 24px;
+    width: 270px;
+    float: left;
+    font-size: 12px;
+    color: #3d3d3d;
+    line-height: 30px;
+}
+#top .top-left a{
+    color: #bb1d2b;
+    margin: 0 3px;
+}
+#top .top-left s{
+    width: 4px;
+    height: 16px;
+}
+#top .top-left a:nth-child(3){
+    color: #9e9e9e;
+}
+ #top .top-right{
+    width: 393px;
+    height: 30px;
+    float: right;
+}
+#top .top-right li{
+    float: left;
+    height: 100%;
+    line-height: 30px;
+    margin-left: 15px;
+} 
+#top .top-right li a{
+    color: #9e9e9e;
+    font-size: 12px;
+}
+#top .top-right li:nth-child(5){
+    position: relative;
+    margin-left: 16px;
+    margin-right: 1px;
+    width: 100px;
+    z-index: 10;
+}
+#top .top-right li:nth-child(5)>a{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 31px;
+    z-index: 1;
+    color: #bb1d2b;
+    text-align: center;
+}
+#top .top-right .ewm{
+    position: absolute;
+    left: -1px;
+    bottom: -98px;
+    width: 130px;
+    height: 96px;
+    display: none;
+    background: #fff;
+}
+#top .top-right li .ewm a{
+    display: block;
+    width: 85px;
+    height: 85px;
+    float: left;
+    margin: 3px;
+}
+#top .top-right li .ewm img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#top .top-right li:nth-child(5):hover{
+    margin-left: 15px;
+    margin-right: 0px;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+#top .top-right li:nth-child(5):hover .ewm{
+    display: block;
+    margin: 0px;
+    border: 1px solid #ccc;
+}
+#top .top-right li:nth-child(5):hover a{
+    background: #fff;
+}
+#top .contents .top-left a:hover{
+    color: #bb1d2b;
+}
+#top .contents .top-right a:hover{
+    color: #bb1d2b;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    border-bottom:1px solid #bb1d2b;
+    background: #fbfbfb;
+}
+#header .contents .header-1{
+    height: 85px;
+    position: relative;
+}
+#header a{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 180px;
+    height: 65px;
+    margin-left: 20px;
+}
+#header a img{
+    width: 100%;
+    height: 100%;
+}
+#header h2{
+    position: absolute;
+    bottom: 0;
+    margin-left: 215px;
+    color: #666666;
+    font-size: 22px;
+}
+#main{
+    height: 680px;
+    width: 100%;
+    background: #f5f5f5;
+}
+#main .contents{
+    position: relative;
+}
+#main .main-left{
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    width: 500px;
+    height: 450px;
+}
+#main .main-right{
+    position: absolute;
+    top: 30px;
+    right: 77px;
+    width: 380px;
+    height: 450px;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 15px 30px;
+    color: #3d3d3d;
+    box-sizing: border-box;
+}
+#main .main-right div{
+    overflow: hidden;
+}
+#main .main-right h2{
+    float: left;
+    font-size: 18px;
+    height: 27px;
+}
+#main .main-right span{
+    float: right;
+    margin-top: 5px;
+    font-size: 12px;
+}
+#main .main-right span a{
+    color: #3d3d3d;
+}
+#main .main-right form{
+    width: 320px;
+    height: 206px;
+    margin-top: 10px;
+}
+#main .main-right form input{
+    width: 320px;
+    height: 40px;
+    border: 1px solid #ccc;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+}
+#main .main-right p{
+    height: 18px;
+}
+#main .main-right p a{
+    float: right;
+    font-size: 12px;
+    color: #3d3d3d;
+}
+#main .main-right span a:hover{
+    color: #bb1d2b;
+}
+#main .main-right p a:hover{
+    color: #bb1d2b;
+}
+#main .main-right form input:nth-child(5){
+    margin-top: 10px;
+    background: #c52835;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+#main .main-right form input:nth-child(5):hover{
+    background: #c51a28;
+}
+#main .main-right #hiht div{
+    width: 320px;
+    height: 27px;
+    box-sizing: border-box;
+    border: 1px solid #ff8080;
+    position: relative;
+    margin-bottom: 15px;
+}
+#main .main-right #hiht div div{
+    width: 12px;
+    height: 12px;
+    float: left;
+    text-align: center;
+    line-height: 12px;
+    font-size: 14px;
+    background: #f50;
+    border-radius: 50%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    margin-top: -6px;
+    margin-left: 6px;
+}
+#main .main-right #hiht span{
+    float: left;
+    margin-left: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
